@@ -1,0 +1,15 @@
+h1{
+    display: none;
+}
+header{
+    background-color: rgb(202, 189, 169);
+}
+nav a{
+    color: rgb(107, 80, 45);
+}
+main{
+    background-color: rgb(228, 220, 209);
+}
+main>img{
+    width: 20rem;
+}
