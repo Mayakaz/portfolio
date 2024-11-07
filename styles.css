@@ -1,15 +1,78 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    background-color:rgb(236, 228, 216) ;
+    color: rgb(94, 71, 41);;
+}
 h1{
     display: none;
 }
 header{
-    background-color: rgb(202, 189, 169);
+    background-color: rgb(194, 176, 153);
+    text-align: center;
+}
+header>img{
+    width: 7rem;
+    margin: 0.5rem auto 0;
 }
 nav a{
-    color: rgb(107, 80, 45);
+    color: rgb(94, 71, 41);
+    margin: 2rem;
+    display: inline-block;
 }
 main{
-    background-color: rgb(228, 220, 209);
+    background-color: rgb(236, 228, 216);
+    color: rgb(94, 71, 41);
+    padding: 1rem;
 }
 main>img{
     width: 20rem;
+    justify-content: center;
+    margin: 1rem auto 0;
+    border-radius: 17%;
+    display: block;
+}
+section{
+    margin: 0.5rem;
+    border-radius: 2%;
+    padding: 0.5rem;
+}
+.border{
+    border: 2px solid rgb(94, 71, 41);
+}
+h2{
+    font-size: 20px;
+}
+h3{
+    font-size: 15px;
+}
+.title{
+    font-size: 3rem;
+    border-bottom: 3px solid rgb(94, 71, 41);
+    width: 11rem;
+}
+.Projects{
+    display: flex;
+}
+iframe{
+    width: 12rem;
+    height: 5rem;
+    margin: 1rem;
+}
+img{
+    max-width: 100%;
+}
+.Projects img{
+    width: 60rem;
+    height: 10rem;
+    display: block;
+}
+.contact{
+    background-color: rgb(194, 176, 153); 
+    padding: 0;
+    margin: 0;
+}
+h4{
+    border-bottom: 1px solid rgb(94, 71, 41);
+    width: 6.75rem;
 }
