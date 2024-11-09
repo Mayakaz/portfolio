@@ -94,14 +94,14 @@ header{
     }
 header>img{
     width: 10rem;
-    margin-left: 13.5rem;
+    margin-left: 10rem;
 }
 nav{
     display: flex;
-    margin: auto;
 }
 nav a{
-    font-size: 2rem;
+    position: relative;
+    font-size: 1.5rem;
 }
 main{
     display: flex;
